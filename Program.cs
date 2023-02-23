@@ -34,7 +34,10 @@ namespace DIO.Series
                     default:
                         throw new ArgumentOutOfRangeException();                        
                 }
+                opcaoUsuario = ObterOpcaoUsuario();
             }
+            Console.WriteLine("Obrigado por utilizar nossos servicos.");
+            Console.ReadLine();
         }
 
         private static void VisualizarSerie()
